@@ -1,6 +1,6 @@
 ###Subject #13 (various everyday behaviors)
 |File Name|Description|Side View|Front View|
-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+|-|-|-|-|
 |[13_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-010-014/13/Data/13_01.zip)|sit on high stool, stand up|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-010-014/13/13_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-010-014/13/13_01_1.gif"/>|
 |[13_02](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-010-014/13/Data/13_02.zip)|sit on high stool, stand up|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-010-014/13/13_02_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-010-014/13/13_02_1.gif"/>|
 |[13_03](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-010-014/13/Data/13_03.zip)|sit on high stool, stand up|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-010-014/13/13_03_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-010-014/13/13_03_1.gif"/>|

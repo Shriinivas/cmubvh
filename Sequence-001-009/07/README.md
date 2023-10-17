@@ -1,6 +1,6 @@
 ###Subject #7 (walk)
 |File Name|Description|Side View|Front View|
-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+|-|-|-|-|
 |[07_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-001-009/07/Data/07_01.zip)|walk|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-001-009/07/07_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-001-009/07/07_01_1.gif"/>|
 |[07_02](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-001-009/07/Data/07_02.zip)|walk|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-001-009/07/07_02_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-001-009/07/07_02_1.gif"/>|
 |[07_03](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-001-009/07/Data/07_03.zip)|walk|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-001-009/07/07_03_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-001-009/07/07_03_1.gif"/>|

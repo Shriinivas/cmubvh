@@ -1,6 +1,6 @@
 ###Subject #6 (dribble, shoot basketball)
 |File Name|Description|Side View|Front View|
-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+|-|-|-|-|
 |[06_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-001-009/06/Data/06_01.zip)|walk|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-001-009/06/06_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-001-009/06/06_01_1.gif"/>|
 |[06_02](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-001-009/06/Data/06_02.zip)|basketball - forward dribble|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-001-009/06/06_02_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-001-009/06/06_02_1.gif"/>|
 |[06_03](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-001-009/06/Data/06_03.zip)|basketball - forward dribble|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-001-009/06/06_03_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-001-009/06/06_03_1.gif"/>|

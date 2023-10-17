@@ -1,6 +1,6 @@
 ###Subject #12 (tai chi, walk)
 |File Name|Description|Side View|Front View|
-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+|-|-|-|-|
 |[12_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-010-014/12/Data/12_01.zip)|walk|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-010-014/12/12_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-010-014/12/12_01_1.gif"/>|
 |[12_02](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-010-014/12/Data/12_02.zip)|walk|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-010-014/12/12_02_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-010-014/12/12_02_1.gif"/>|
 |[12_03](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-010-014/12/Data/12_03.zip)|walk|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-010-014/12/12_03_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-010-014/12/12_03_1.gif"/>|

@@ -1,4 +1,4 @@
-###Subject #1 (climb, swing, hang on playground equipment)
+### Subject #1 (climb, swing, hang on playground equipment)
 |File Name|Description|Side View|Front View|
 |-|-|-|-|
 |[01_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-001-009/01/Data/01_01.zip)|playground - forward jumps, turn around|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-001-009/01/01_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-001-009/01/01_01_1.gif"/>|

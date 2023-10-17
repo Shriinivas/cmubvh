@@ -1,4 +1,4 @@
-###Subject #13 (various everyday behaviors)
+### Subject #13 (various everyday behaviors)
 |File Name|Description|Side View|Front View|
 |-|-|-|-|
 |[13_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-010-014/13/Data/13_01.zip)|sit on high stool, stand up|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-010-014/13/13_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-010-014/13/13_01_1.gif"/>|

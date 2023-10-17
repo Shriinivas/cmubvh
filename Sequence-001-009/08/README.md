@@ -1,4 +1,4 @@
-###Subject #8 (walk)
+### Subject #8 (walk)
 |File Name|Description|Side View|Front View|
 |-|-|-|-|
 |[08_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-001-009/08/Data/08_01.zip)|walk|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-001-009/08/08_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-001-009/08/08_01_1.gif"/>|

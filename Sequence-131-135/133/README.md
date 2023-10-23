@@ -1,4 +1,4 @@
-### Subject #133 (Baby Styled Walk)
+### Baby Styled Walk
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[133_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-131-135/133/Data/133_01.zip)|1376|Walk Crawl|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-131-135/133/133_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-131-135/133/133_01_1.gif"/>|

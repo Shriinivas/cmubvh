@@ -1,4 +1,4 @@
-### Subject #125 (Swimming)
+### Swimming
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[125_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-113-128/125/Data/125_01.zip)|4258|Breast Stroke|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-113-128/125/125_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-113-128/125/125_01_1.gif"/>|

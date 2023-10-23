@@ -1,4 +1,4 @@
-### Subject #115 (Bending over)
+### Bending over
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[115_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-113-128/115/Data/115_01.zip)|470|Pick up box, bend from waist|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-113-128/115/115_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-113-128/115/115_01_1.gif"/>|

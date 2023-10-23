@@ -1,4 +1,4 @@
-### Subject #91 (walks and turns)
+### walks and turns
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[91_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-086-094/91/Data/91_01.zip)|2738|Walk digital figure eight|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-086-094/91/91_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-086-094/91/91_01_1.gif"/>|

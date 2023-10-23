@@ -1,4 +1,4 @@
-### Subject #14 (various everyday behaviors)
+### various everyday behaviors
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[14_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-010-014/14/Data/14_01.zip)|5595|boxing|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-010-014/14/14_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-010-014/14/14_01_1.gif"/>|

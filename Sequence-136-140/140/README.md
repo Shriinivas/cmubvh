@@ -1,4 +1,4 @@
-### Subject #140 (Getting Up From Ground)
+### Getting Up From Ground
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[140_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-136-140/140/Data/140_01.zip)|831|Get Up Face Down|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-136-140/140/140_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-136-140/140/140_01_1.gif"/>|

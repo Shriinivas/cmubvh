@@ -1,4 +1,4 @@
-### Subject #87 (acrobatics)
+### acrobatics
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[87_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-086-094/87/Data/87_01.zip)|617|Jump with kick and spin|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-086-094/87/87_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-086-094/87/87_01_1.gif"/>|

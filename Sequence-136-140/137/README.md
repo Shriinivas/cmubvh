@@ -1,4 +1,4 @@
-### Subject #137 (Stylized Motions)
+### Stylized Motions
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[137_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-136-140/137/Data/137_01.zip)|2164|Cat Coffee Mug|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-136-140/137/137_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-136-140/137/137_01_1.gif"/>|

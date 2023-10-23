@@ -1,4 +1,4 @@
-### Subject #38 (walk, run)
+### walk, run
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[38_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-035-039/38/Data/38_01.zip)|353|walk|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-035-039/38/38_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-035-039/38/38_01_1.gif"/>|

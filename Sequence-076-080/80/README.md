@@ -1,4 +1,4 @@
-### Subject #80 (assorted motions)
+### assorted motions
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[80_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-076-080/80/Data/80_01.zip)|850|shaking hands|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-076-080/80/80_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-076-080/80/80_01_1.gif"/>|

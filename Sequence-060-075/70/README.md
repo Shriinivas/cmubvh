@@ -1,4 +1,4 @@
-### Subject #70 (suitcase)
+### suitcase
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[70_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-060-075/70/Data/70_01.zip)|716|carry 5.5lb suitcase|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-060-075/70/70_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-060-075/70/70_01_1.gif"/>|

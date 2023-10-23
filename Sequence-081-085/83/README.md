@@ -1,4 +1,4 @@
-### Subject #83 (steps)
+### steps
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[83_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-081-085/83/Data/83_01.zip)|634|large sidestep to right|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-081-085/83/83_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-081-085/83/83_01_1.gif"/>|

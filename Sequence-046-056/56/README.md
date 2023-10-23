@@ -1,4 +1,4 @@
-### Subject #56 (vignettes - locomotion, upper-body motions (focus: motion transitions))
+### vignettes - locomotion, upper-body motions (focus: motion transitions)
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[56_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-046-056/56/Data/56_01.zip)|1507|walk around|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-046-056/56/56_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-046-056/56/56_01_1.gif"/>|

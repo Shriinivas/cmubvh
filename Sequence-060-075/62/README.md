@@ -1,4 +1,4 @@
-### Subject #62 (construction work, random motions)
+### construction work, random motions
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[62_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-060-075/62/Data/62_01.zip)|1083|bolt loosening, wrench|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-060-075/62/62_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-060-075/62/62_01_1.gif"/>|

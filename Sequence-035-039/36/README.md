@@ -1,4 +1,4 @@
-### Subject #36 (walk on uneven terrain)
+### walk on uneven terrain
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[36_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-035-039/36/Data/36_01.zip)|558|walk on uneven terrain|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-035-039/36/36_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-035-039/36/36_01_1.gif"/>|

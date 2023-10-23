@@ -1,4 +1,4 @@
-### Subject #19 (human interaction and communication (2 subjects - subject B))
+### human interaction and communication (2 subjects - subject B)
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[19_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-015-019/19/Data/19_01.zip)|304|walk, shake hands (2 subjects - subject B)|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-015-019/19/19_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-015-019/19/19_01_1.gif"/>|

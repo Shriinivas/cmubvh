@@ -1,4 +1,4 @@
-### Subject #15 (various everyday behaviors, dance moves)
+### various everyday behaviors, dance moves
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[15_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-015-019/15/Data/15_01.zip)|5525|walk/wander|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-015-019/15/15_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-015-019/15/15_01_1.gif"/>|

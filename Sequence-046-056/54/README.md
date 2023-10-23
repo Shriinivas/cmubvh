@@ -1,4 +1,4 @@
-### Subject #54 (animal behaviors (pantomime - human subject))
+### animal behaviors (pantomime - human subject)
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[54_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-046-056/54/Data/54_01.zip)|1922|monkey (human subject)|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-046-056/54/54_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-046-056/54/54_01_1.gif"/>|

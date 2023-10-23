@@ -1,4 +1,4 @@
-### Subject #118 (Jumping)
+### Jumping
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[118_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-113-128/118/Data/118_01.zip)|715|Jump|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-113-128/118/118_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-113-128/118/118_01_1.gif"/>|

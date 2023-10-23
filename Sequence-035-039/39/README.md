@@ -1,4 +1,4 @@
-### Subject #39 (climb, swing, hang on playground equipment)
+### climb, swing, hang on playground equipment
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[39_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-035-039/39/Data/39_01.zip)|379|walk|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-035-039/39/39_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-035-039/39/39_01_1.gif"/>|

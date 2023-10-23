@@ -1,4 +1,4 @@
-### Subject #126 (Swimming 2)
+### Swimming 2
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[126_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-113-128/126/Data/126_01.zip)|2594|Back Stroke|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-113-128/126/126_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-113-128/126/126_01_1.gif"/>|

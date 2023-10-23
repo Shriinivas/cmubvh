@@ -1,4 +1,4 @@
-### Subject #33 (throw and catch football (2 subjects - subject A))
+### throw and catch football (2 subjects - subject A)
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[33_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-030-034/33/Data/33_01.zip)|2705|football - throw, catch (2 subjects - subject A)|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-030-034/33/33_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-030-034/33/33_01_1.gif"/>|

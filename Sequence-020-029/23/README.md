@@ -1,4 +1,4 @@
-### Subject #23 (human interaction (2 subjects - subject B))
+### human interaction (2 subjects - subject B)
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[23_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-020-029/23/Data/23_01.zip)|783|B sits; A pulls up B (subjects - subject B)|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-020-029/23/23_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-020-029/23/23_01_1.gif"/>|

@@ -1,4 +1,4 @@
-### Subject #136 (Weird Walks)
+### Weird Walks
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[136_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-136-140/136/Data/136_01.zip)|873|Walk Bent Forward|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-136-140/136/136_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-136-140/136/136_01_1.gif"/>|

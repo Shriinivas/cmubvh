@@ -1,4 +1,4 @@
-### Subject #85 (jumps; flips; breakdance)
+### jumps; flips; breakdance
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[85_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-081-085/85/Data/85_01.zip)|999|JumpTwist|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-081-085/85/85_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-081-085/85/85_01_1.gif"/>|

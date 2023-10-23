@@ -1,4 +1,4 @@
-### Subject #32 (recreation, nursery rhymes, animal behaviors (pantomime - human subject))
+### recreation, nursery rhymes, animal behaviors (pantomime - human subject)
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[32_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-030-034/32/Data/32_01.zip)|483|walk|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-030-034/32/32_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-030-034/32/32_01_1.gif"/>|

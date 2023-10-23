@@ -1,4 +1,4 @@
-### Subject #120 (Various Style Walks)
+### Various Style Walks
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[120_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-113-128/120/Data/120_01.zip)|1222|Alien Turn|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-113-128/120/120_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-113-128/120/120_01_1.gif"/>|

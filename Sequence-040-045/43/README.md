@@ -1,4 +1,4 @@
-### Subject #43 (swing on playground equipment)
+### swing on playground equipment
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[43_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-040-045/43/Data/43_01.zip)|422|walk|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-040-045/43/43_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-040-045/43/43_01_1.gif"/>|

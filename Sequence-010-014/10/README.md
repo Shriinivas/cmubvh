@@ -1,4 +1,4 @@
-### Subject #10 (kick soccer ball)
+### kick soccer ball
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[10_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-010-014/10/Data/10_01.zip)|802|soccer - kick ball|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-010-014/10/10_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-010-014/10/10_01_1.gif"/>|

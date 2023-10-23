@@ -1,4 +1,4 @@
-### Subject #107 (Walking with obstacles 1)
+### Walking with obstacles 1
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[107_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-102-111/107/Data/107_01.zip)|532|Unknown|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-102-111/107/107_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-102-111/107/107_01_1.gif"/>|

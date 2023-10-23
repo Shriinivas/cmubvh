@@ -1,4 +1,4 @@
-### Subject #75 (jumps; hopscotch; sits)
+### jumps; hopscotch; sits
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[75_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-060-075/75/Data/75_01.zip)|379|run jump|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-060-075/75/75_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-060-075/75/75_01_1.gif"/>|

@@ -1,4 +1,4 @@
-### Subject #74 (kicks and walking on slopes)
+### kicks and walking on slopes
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[74_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-060-075/74/Data/74_01.zip)|465|stiff walk|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-060-075/74/74_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-060-075/74/74_01_1.gif"/>|

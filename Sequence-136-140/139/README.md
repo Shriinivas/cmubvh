@@ -1,4 +1,4 @@
-### Subject #139 (Action Walks, sneaking, wounded, looking around)
+### Action Walks, sneaking, wounded, looking around
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[139_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-136-140/139/Data/139_01.zip)|1091|Looking Around|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-136-140/139/139_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-136-140/139/139_01_1.gif"/>|

@@ -1,6 +1,6 @@
 # CMU BVH Animation
 
-This repository contains the categorized demos of CMU bvh animations.
+This repository contains the categorized demos of CMU bvh animations in gif format for quick reference.
 
 The main CMU bvh page is [here](http://mocap.cs.cmu.edu/)
 

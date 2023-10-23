@@ -1,4 +1,4 @@
-### walking
+### Walking
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[78_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-076-080/78/Data/78_01.zip)|170|LeftTightTurn         CleanedGRS|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-076-080/78/78_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-076-080/78/78_01_1.gif"/>|

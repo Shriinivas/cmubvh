@@ -1,4 +1,4 @@
-### motion
+### Motion
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[104_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-102-111/104/Data/104_01.zip)|386|JogThrough|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-102-111/104/104_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-102-111/104/104_01_1.gif"/>|

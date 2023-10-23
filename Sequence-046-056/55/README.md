@@ -1,4 +1,4 @@
-### animal behaviors (pantomime - human subject)
+### Animal behaviors (pantomime - human subject)
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[55_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-046-056/55/Data/55_01.zip)|1807|dance, whirl|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-046-056/55/55_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-046-056/55/55_01_1.gif"/>|

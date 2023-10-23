@@ -1,4 +1,4 @@
-### walk on uneven terrain
+### Walk on uneven terrain
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[03_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-001-009/03/Data/03_01.zip)|433|walk on uneven terrain|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-001-009/03/03_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-001-009/03/03_01_1.gif"/>|

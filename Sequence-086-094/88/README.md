@@ -1,4 +1,4 @@
-### acrobatics
+### Acrobatics
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[88_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-086-094/88/Data/88_01.zip)|203|backflip|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-086-094/88/88_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-086-094/88/88_01_1.gif"/>|

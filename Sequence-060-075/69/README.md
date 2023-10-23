@@ -1,4 +1,4 @@
-### walking
+### Walking
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[69_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-060-075/69/Data/69_01.zip)|470|walk forward|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-060-075/69/69_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-060-075/69/69_01_1.gif"/>|

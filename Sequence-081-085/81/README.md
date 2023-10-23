@@ -1,4 +1,4 @@
-### pushing a box; jumping off a ledge; walks
+### Pushing a box; jumping off a ledge; walks
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[81_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-081-085/81/Data/81_01.zip)|1253|fix hair and walk forward|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-081-085/81/81_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-081-085/81/81_01_1.gif"/>|

@@ -1,4 +1,4 @@
-### modern dance, gymnastics
+### Modern dance, gymnastics
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[49_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-046-056/49/Data/49_01.zip)|653|walk|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-046-056/49/49_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-046-056/49/49_01_1.gif"/>|

@@ -1,4 +1,4 @@
-### recreation, nursery rhymes
+### Recreation, nursery rhymes
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[27_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-020-029/27/Data/27_01.zip)|1034|walk|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-020-029/27/27_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-020-029/27/27_01_1.gif"/>|

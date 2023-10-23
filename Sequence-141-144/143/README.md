@@ -1,4 +1,4 @@
-### General Subject Capture
+### General subject capture
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[143_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-141-144/143/Data/143_01.zip)|101|Run|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-141-144/143/143_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-141-144/143/143_01_1.gif"/>|

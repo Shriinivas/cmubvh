@@ -1,4 +1,4 @@
-### run
+### Run
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[09_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-001-009/09/Data/09_01.zip)|149|run|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-001-009/09/09_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-001-009/09/09_01_1.gif"/>|

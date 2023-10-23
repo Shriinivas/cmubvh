@@ -1,4 +1,4 @@
-### indian dance
+### Indian dance
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[94_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-086-094/94/Data/94_01.zip)|3603|Unknown|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-086-094/94/94_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-086-094/94/94_01_1.gif"/>|

@@ -1,4 +1,4 @@
-### human interaction and communication (2 subjects - subject A)
+### Human interaction and communication (2 subjects - subject a)
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[18_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-015-019/18/Data/18_01.zip)|304|walk, shake hands (2 subjects - subject A)|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-015-019/18/18_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-015-019/18/18_01_1.gif"/>|

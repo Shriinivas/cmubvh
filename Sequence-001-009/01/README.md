@@ -1,4 +1,4 @@
-### climb, swing, hang on playground equipment
+### Climb, swing, hang on playground equipment
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[01_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-001-009/01/Data/01_01.zip)|2752|playground - forward jumps, turn around|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-001-009/01/01_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-001-009/01/01_01_1.gif"/>|

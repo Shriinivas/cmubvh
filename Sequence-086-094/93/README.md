@@ -1,4 +1,4 @@
-### Charleston Dance
+### Charleston dance
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[93_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-086-094/93/Data/93_01.zip)|22|Motorcycle Pose|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-086-094/93/93_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-086-094/93/93_01_1.gif"/>|

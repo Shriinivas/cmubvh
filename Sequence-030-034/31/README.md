@@ -1,4 +1,4 @@
-### recreation, nursery rhymes, animal behaviors (pantomime - human subject)
+### Recreation, nursery rhymes, animal behaviors (pantomime - human subject)
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[31_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-030-034/31/Data/31_01.zip)|3956|basketball signals|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-030-034/31/31_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-030-034/31/31_01_1.gif"/>|

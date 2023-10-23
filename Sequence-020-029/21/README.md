@@ -1,4 +1,4 @@
-### human interaction - at play, formations (2 subjects - subject B)
+### Human interaction - at play, formations (2 subjects - subject b)
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[21_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-020-029/21/Data/21_01.zip)|1286|chicken dance (2 subjects - subject B)|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-020-029/21/21_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-020-029/21/21_01_1.gif"/>|

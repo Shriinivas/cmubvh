@@ -1,4 +1,4 @@
-### Skateboard Motions
+### Skateboard motions
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[134_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-131-135/134/Data/134_01.zip)|358|Duck Under|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-131-135/134/134_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-131-135/134/134_01_1.gif"/>|

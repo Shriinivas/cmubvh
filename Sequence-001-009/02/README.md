@@ -1,4 +1,4 @@
-### various expressions and human behaviors
+### Various expressions and human behaviors
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[02_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-001-009/02/Data/02_01.zip)|344|walk|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-001-009/02/02_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-001-009/02/02_01_1.gif"/>|

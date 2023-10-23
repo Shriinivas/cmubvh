@@ -1,4 +1,4 @@
-### different walking styles
+### Different walking styles
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[17_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-015-019/17/Data/17_01.zip)|6306|walk with anger, frustration|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-015-019/17/17_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-015-019/17/17_01_1.gif"/>|

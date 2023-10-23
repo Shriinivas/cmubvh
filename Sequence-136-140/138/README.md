@@ -1,4 +1,4 @@
-### Marching, Walking and Talking
+### Marching, walking and talking
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[138_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-136-140/138/Data/138_01.zip)|807|Marching|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-136-140/138/138_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-136-140/138/138_01_1.gif"/>|

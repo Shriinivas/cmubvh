@@ -1,4 +1,4 @@
-### walk
+### Walk
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[08_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-001-009/08/Data/08_01.zip)|278|walk|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-001-009/08/08_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-001-009/08/08_01_1.gif"/>|

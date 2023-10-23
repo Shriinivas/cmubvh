@@ -1,4 +1,4 @@
-### avoidance
+### Avoidance
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[76_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-076-080/76/Data/76_01.zip)|931|walk backwards then attack with a punch|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-076-080/76/76_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-076-080/76/76_01_1.gif"/>|

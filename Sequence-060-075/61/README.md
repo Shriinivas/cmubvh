@@ -1,4 +1,4 @@
-### salsa
+### Salsa
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[61_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-060-075/61/Data/61_01.zip)|2243|salsa dance|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-060-075/61/61_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-060-075/61/61_01_1.gif"/>|

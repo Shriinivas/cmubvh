@@ -1,4 +1,4 @@
-### Charelston Dancing
+### Charelston dancing
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[103_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-102-111/103/Data/103_01.zip)|22|Unknown|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-102-111/103/103_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-102-111/103/103_01_1.gif"/>|

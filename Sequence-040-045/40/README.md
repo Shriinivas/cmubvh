@@ -1,4 +1,4 @@
-### navigate from corner to corner, interact with stepstool
+### Navigate from corner to corner, interact with stepstool
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[40_02](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-040-045/40/Data/40_02.zip)|4995|navigate - walk forward, backward, on a diagonal|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-040-045/40/40_02_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-040-045/40/40_02_1.gif"/>|

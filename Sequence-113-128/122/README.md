@@ -1,4 +1,4 @@
-### Varying Height and Length Steps
+### Varying height and length steps
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[122_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-113-128/122/Data/122_01.zip)|634|clean|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-113-128/122/122_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-113-128/122/122_01_1.gif"/>|

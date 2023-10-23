@@ -1,4 +1,4 @@
-### jumping; pushing; emotional walks
+### Jumping; pushing; emotional walks
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[82_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-081-085/82/Data/82_01.zip)|11|Static pose|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-081-085/82/82_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-081-085/82/82_01_1.gif"/>|

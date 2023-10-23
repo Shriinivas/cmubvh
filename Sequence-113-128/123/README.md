@@ -1,4 +1,4 @@
-### Carry Suitcase with Varying Weights
+### Carry suitcase with varying weights
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[123_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-113-128/123/Data/123_01.zip)|716|15.5 lbs|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-113-128/123/123_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-113-128/123/123_01_1.gif"/>|

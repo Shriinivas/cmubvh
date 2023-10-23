@@ -1,4 +1,4 @@
-### walk, run
+### Walk, run
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[35_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-035-039/35/Data/35_01.zip)|359|walk|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-035-039/35/35_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-035-039/35/35_01_1.gif"/>|

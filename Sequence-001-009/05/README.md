@@ -1,4 +1,4 @@
-### modern dance
+### Modern dance
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[05_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-001-009/05/Data/05_01.zip)|599|walk|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-001-009/05/05_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-001-009/05/05_01_1.gif"/>|

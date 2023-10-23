@@ -1,4 +1,4 @@
-### Action Adventure Motions running, ducking, rolling, stopping
+### Action adventure motions running, ducking, rolling, stopping
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[128_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-113-128/128/Data/128_01.zip)|326|Motorcycle|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-113-128/128/128_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-113-128/128/128_01_1.gif"/>|

@@ -1,4 +1,4 @@
-### human interaction (2 subjects - subject A)
+### Human interaction (2 subjects - subject a)
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[22_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-020-029/22/Data/22_01.zip)|783|B sits; A pulls up B (2 subjects - subject A)|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-020-029/22/22_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-020-029/22/22_01_1.gif"/>|

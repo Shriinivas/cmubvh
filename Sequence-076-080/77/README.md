@@ -1,4 +1,4 @@
-### careful actions
+### Careful actions
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[77_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-076-080/77/Data/77_01.zip)|1091|looking around|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-076-080/77/77_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-076-080/77/77_01_1.gif"/>|

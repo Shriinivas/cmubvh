@@ -1,4 +1,4 @@
-### Michael Jackson Styled Motions
+### Michael jackson styled motions
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[131_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-131-135/131/Data/131_01.zip)|995|Start Walk Stop|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-131-135/131/131_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-131-135/131/131_01_1.gif"/>|

@@ -1,4 +1,4 @@
-### sports and various activities
+### Sports and various activities
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[86_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-086-094/86/Data/86_01.zip)|4580|jumps kicks and punches|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-086-094/86/86_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-086-094/86/86_01_1.gif"/>|

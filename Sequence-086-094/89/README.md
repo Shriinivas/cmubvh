@@ -1,4 +1,4 @@
-### acrobatics
+### Acrobatics
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[89_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-086-094/89/Data/89_01.zip)|2295|balance object on forehead|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-086-094/89/89_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-086-094/89/89_01_1.gif"/>|

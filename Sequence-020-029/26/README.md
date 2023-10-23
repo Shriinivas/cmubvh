@@ -1,4 +1,4 @@
-### nursery rhymes, basketball, bending
+### Nursery rhymes, basketball, bending
 |File Name|Frames|Description|View 1|View 2|
 |-|-|-|-|-|
 |[26_01](https://github.com/Shriinivas/cmubvh/raw/main/Sequence-020-029/26/Data/26_01.zip)|834|walk|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-020-029/26/26_01_0.gif"/>|<img src="https://github.com/Shriinivas/cmubvhgifs/blob/main/Sequence-020-029/26/26_01_1.gif"/>|

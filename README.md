@@ -1,10 +1,13 @@
 # CMU BVH Animation
 
-This repository contains the categorized demos of CMU bvh animations. 
+This repository contains the categorized demos of CMU bvh animations.
 
 The main CMU bvh page is [here](http://mocap.cs.cmu.edu/)
 
 The animation rendering is based on the files from [cgspeed](https://sites.google.com/a/cgspeed.com/cgspeed/motion-capture)
+
+As per the usage rights from [cgspeed page](https://sites.google.com/a/cgspeed.com/cgspeed/motion-capture/the-daz-friendly-bvh-release-of-cmus-motion-capture-database/readmefirst-file-for-daz-friendly-primary-release?authuser=0):
+> CMU places no restrictions on the use of the original dataset, and I (Bruce) place no additional restrictions on the use of this particular BVH conversion.
 
 
 ### Animation Categories
@@ -230,3 +233,5 @@ The animation rendering is based on the files from [cgspeed](https://sites.googl
 
 [Punching female](https://github.com/Shriinivas/cmubvh/tree/main/Sequence-141-144/144)
 
+The data used in this project was obtained from mocap.cs.cmu.edu.
+The database was created with funding from NSF EIA-0196217.

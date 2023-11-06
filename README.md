@@ -9,6 +9,7 @@ The animation rendering is based on the files from [cgspeed](https://sites.googl
 As per the usage rights from [cgspeed page](https://sites.google.com/a/cgspeed.com/cgspeed/motion-capture/the-daz-friendly-bvh-release-of-cmus-motion-capture-database/readmefirst-file-for-daz-friendly-primary-release?authuser=0):
 > CMU places no restrictions on the use of the original dataset, and I (Bruce) place no additional restrictions on the use of this particular BVH conversion.
 
+The animations are genrated using MakeHuman (Character modeling and rigging), [Retarget BVH Blender add-on](https://bitbucket.org/Diffeomorphic/retarget_bvh/src/master/) for retargeting the bvh files and Blender for rendering the animation.
 
 ### Animation Categories
 [Climb, swing, hang on playground equipment](https://github.com/Shriinivas/cmubvh/tree/main/Sequence-001-009/01)

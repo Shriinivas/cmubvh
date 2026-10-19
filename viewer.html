@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CMU BVH viewer</title>
+<style>
+  :root { --bg:#10161c; --pan:#18212a; --fg:#dbe6ee; --mut:#7f93a3; --acc:#ffd23f; }
+  * { box-sizing: border-box; }
+  html, body { margin:0; height:100%; background:var(--bg); color:var(--fg); font:14px system-ui, sans-serif; }
+  #app { display:grid; grid-template-columns: 340px 1fr; height:100%; }
+  #list { background:var(--pan); display:flex; flex-direction:column; min-height:0; border-right:1px solid #2a3846; }
+  #list input { margin:8px; padding:8px; border-radius:6px; border:1px solid #2a3846; background:#0d1318; color:var(--fg); }
+  #items { overflow:auto; flex:1; }
+  .it { padding:5px 10px; cursor:pointer; border-bottom:1px solid #1f2b36; }
+  .it b { color:var(--acc); font-weight:600; margin-right:6px; }
+  .it.sel { background:#27384a; }
+  .suj { padding:6px 10px; background:#0d1318; color:var(--mut); font-size:12px; position:sticky; top:0; }
+  #scene { position:relative; min-width:0; }
+  canvas { display:block; width:100%; height:100%; touch-action:none; }
+  #bar { position:absolute; left:0; right:0; bottom:0; padding:10px; background:rgba(16,22,28,.85); display:flex; gap:10px; align-items:center; flex-wrap:wrap; }
+  #bar input[type=range] { flex:1; min-width:140px; }
+  button, select { background:#27384a; color:var(--fg); border:0; padding:7px 12px; border-radius:6px; cursor:pointer; }
+  #title { position:absolute; top:10px; left:12px; right:12px; pointer-events:none; text-shadow:0 1px 3px #000; }
+  #title b { color:var(--acc); }
+  #help { color:var(--mut); font-size:12px; }
+  @media (max-width: 760px) { #app { grid-template-columns: 1fr; grid-template-rows: 40% 60%; } }
+</style>
+</head>
+<body>
+<div id="app">
+  <div id="list">
+    <input id="filter" placeholder="Filter (e.g. sit, 141, bow, walk)…" autocomplete="off">
+    <div id="items"></div>
+  </div>
+  <div id="scene">
+    <canvas id="cv"></canvas>
+    <div id="title"></div>
+    <div id="bar">
+      <button id="bPlay">Pause</button>
+      <input id="slider" type="range" min="0" max="1" step="1" value="0" aria-label="Frame">
+      <span id="time">0.0 s</span>
+      <label>Speed <select id="speed"><option value="0.25">×0,25</option><option value="0.5">×0,5</option><option value="1" selected>×1</option><option value="2">×2</option></select></label>
+      <label><input type="checkbox" id="follow" checked> Follow</label>
+      <span id="help">Drag: rotate · wheel: zoom · ↑↓: next clip · space: pause</span>
+    </div>
+  </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+'use strict';
+// Minimal BVH viewer for the CMU mocap database (cgspeed conversion) as stored in this repository: it reads the .zip files in place
+// (Sequence-xxx-yyy/NN/Data/NN_MM.zip, inflated in the browser) and the clip descriptions from cmu-mocap-index-text.txt.
+// Usage: from the root of the repository run `python3 -m http.server 8001`, then open http://localhost:8001/viewer.html#93_02
+const SCALE = 0.0605;   // CMU units -> metres
+
+const $ = (id) => document.getElementById(id);
+
+// ---- index des descriptions -------------------------------------------------------------------------------------------------------------
+let CLIPS = [];   // { id, desc, subject }
+async function loadIndex() {
+  const t = await (await fetch('cmu-mocap-index-text.txt')).text(); let subj = '';   // (the index file at the root of the repository)
+  t.split(/\r?\n/).forEach((l) => {
+    let m = l.match(/^Subject #(\d+)\s*\((.*)\)/); if (m) { subj = m[1] + ' · ' + m[2]; return; }
+    m = l.match(/^(\d{2,3}_\d\d)\s+(.*)$/); if (m) CLIPS.push({ id: m[1], desc: m[2].trim(), subject: subj });
+  });
+}
+
+// ---- zip access -----------------------------------------------------------------------------------------------------------------------
+const SEQUENCES = ['001-009', '010-014', '015-019', '020-029', '030-034', '035-039', '040-045', '046-056', '060-075', '076-080', '081-085', '086-094', '102-111', '113-128', '131-135', '136-140', '141-144'];
+function zipUrl(id) {   // '93_02' -> 'Sequence-086-094/93/Data/93_02.zip' (the subject folder has no zero padding beyond 2 digits)
+  const n = parseInt(id, 10), s = SEQUENCES.find((r) => { const [a, b] = r.split('-').map(Number); return n >= a && n <= b; });
+  return 'Sequence-' + s + '/' + String(n).padStart(2, '0') + '/Data/' + id + '.zip';
+}
+async function loadBVH(id) {   // first entry of a zip archive, inflated with the browser's DecompressionStream
+  const r = await fetch(zipUrl(id)); if (!r.ok) throw new Error('HTTP ' + r.status);
+  const buf = await r.arrayBuffer(), v = new DataView(buf), u8 = new Uint8Array(buf);
+  let e = u8.length - 22; while (e >= 0 && v.getUint32(e, true) !== 0x06054b50) e--;   // end of central directory
+  if (e < 0) throw new Error('not a zip file');
+  const cd = v.getUint32(e + 16, true), method = v.getUint16(cd + 10, true), csize = v.getUint32(cd + 20, true), loc = v.getUint32(cd + 42, true);
+  const start = loc + 30 + v.getUint16(loc + 26, true) + v.getUint16(loc + 28, true), data = u8.subarray(start, start + csize);
+  if (method === 0) return new TextDecoder().decode(data);
+  if (method !== 8) throw new Error('unsupported zip method ' + method);
+  return await new Response(new Blob([data]).stream().pipeThrough(new DecompressionStream('deflate-raw'))).text();
+}
+
+// ---- BVH parsing ---------------------------------------------------------------------------------------------------------------------
+function parseBVH(txt) {
+  const tok = txt.split(/\s+/).filter(Boolean); let i = 0; const joints = [];
+  function readNode(parent) {
+    const name = tok[i++]; const J = { name, parent, off: [0, 0, 0], channels: [], idx: joints.length, isEnd: false }; joints.push(J);
+    i++;   // {
+    while (tok[i] !== '}') {
+      const k = tok[i++];
+      if (k === 'OFFSET') { J.off = [+tok[i], +tok[i + 1], +tok[i + 2]]; i += 3; }
+      else if (k === 'CHANNELS') { const n = +tok[i++]; J.channels = tok.slice(i, i + n); i += n; }
+      else if (k === 'JOINT') readNode(J.idx);
+      else if (k === 'End') { i++; const E = { name: name + '_fin', parent: J.idx, off: [0, 0, 0], channels: [], idx: joints.length, isEnd: true }; joints.push(E); i++; i++; E.off = [+tok[i + 0], +tok[i + 1], +tok[i + 2]]; i += 3; i++; }
+    }
+    i++;   // }
+  }
+  while (tok[i] !== 'ROOT') i++; i++; readNode(-1);
+  while (tok[i] !== 'Frames:') i++; const n = +tok[i + 1]; const dt = +tok[i + 4]; i += 5;
+  let nc = 0; joints.forEach((J) => nc += J.channels.length);
+  const data = new Float32Array(n * nc); for (let k = 0; k < n * nc; k++) data[k] = +tok[i + k];
+  return { joints, n, dt, nc, data };
+}
+const _m = new THREE.Matrix4(), _r = new THREE.Matrix4(), _t = new THREE.Matrix4();
+function poseJoints(bvh, f, out) {   // world positions of the joints (CMU frame, y up), written into out (Float32Array, 3 per joint)
+  const J = bvh.joints, M = bvh._mats || (bvh._mats = J.map(() => new THREE.Matrix4())); let c = f * bvh.nc;
+  for (const j of J) {
+    _m.identity(); _m.setPosition(j.off[0], j.off[1], j.off[2]);
+    for (const nm of j.channels) {
+      const v = bvh.data[c++];
+      if (nm === 'Xposition') { _t.makeTranslation(v, 0, 0); _m.multiply(_t); } else if (nm === 'Yposition') { _t.makeTranslation(0, v, 0); _m.multiply(_t); } else if (nm === 'Zposition') { _t.makeTranslation(0, 0, v); _m.multiply(_t); }
+      else { const a = v * Math.PI / 180; if (nm === 'Xrotation') _r.makeRotationX(a); else if (nm === 'Yrotation') _r.makeRotationY(a); else _r.makeRotationZ(a); _m.multiply(_r); }
+    }
+    if (j.parent >= 0) M[j.idx].multiplyMatrices(M[j.parent], _m); else M[j.idx].copy(_m);
+    const e = M[j.idx].elements; out[3 * j.idx] = e[12] * SCALE; out[3 * j.idx + 1] = e[13] * SCALE; out[3 * j.idx + 2] = e[14] * SCALE;
+  }
+}
+
+// ---- scene ------------------------------------------------------------------------------------------------------------------------------
+const rend = new THREE.WebGLRenderer({ canvas: $('cv'), antialias: true }); rend.setClearColor(0x10161c);
+const scene = new THREE.Scene(), cam = new THREE.PerspectiveCamera(45, 1, 0.05, 100);
+scene.add(new THREE.GridHelper(20, 40, 0x44586a, 0x24323e));
+const R = { th: 0.6, ph: 1.25, d: 4.2 }, target = new THREE.Vector3(0, 0.9, 0);
+let lines = null, points = null, bvh = null, pos = null, f = 0, playing = true, cur = -1, acc = 0;
+function updateCamera() { cam.position.set(target.x + R.d * Math.sin(R.ph) * Math.sin(R.th), target.y + R.d * Math.cos(R.ph), target.z + R.d * Math.sin(R.ph) * Math.cos(R.th)); cam.lookAt(target); }
+function resizeView() { const c = $('cv'), w = c.clientWidth, h = c.clientHeight; rend.setSize(w, h, false); cam.aspect = w / h; cam.updateProjectionMatrix(); }
+addEventListener('resize', resizeView);
+(function mouseControls() {
+  const c = $('cv'); let drag = null;
+  c.addEventListener('pointerdown', (e) => { drag = [e.clientX, e.clientY]; c.setPointerCapture(e.pointerId); });
+  c.addEventListener('pointerup', () => { drag = null; });
+  c.addEventListener('pointermove', (e) => { if (!drag) return; R.th -= (e.clientX - drag[0]) * 0.008; R.ph = Math.min(3, Math.max(0.1, R.ph - (e.clientY - drag[1]) * 0.008)); drag = [e.clientX, e.clientY]; });
+  c.addEventListener('wheel', (e) => { e.preventDefault(); R.d = Math.min(20, Math.max(0.8, R.d * (1 + Math.sign(e.deltaY) * 0.1))); }, { passive: false });
+})();
+
+function buildSkeleton() {
+  if (lines) { scene.remove(lines); scene.remove(points); }
+  const J = bvh.joints, seg = []; J.forEach((j) => { if (j.parent >= 0) seg.push(j.parent, j.idx); });
+  const g = new THREE.BufferGeometry(); pos = new Float32Array(J.length * 3); g.setAttribute('position', new THREE.BufferAttribute(pos, 3)); g.setIndex(seg);
+  lines = new THREE.LineSegments(g, new THREE.LineBasicMaterial({ color: 0xffd23f })); lines.frustumCulled = false;
+  points = new THREE.Points(g, new THREE.PointsMaterial({ color: 0xffffff, size: 5, sizeAttenuation: false })); points.frustumCulled = false;
+  scene.add(lines, points);
+  $('slider').max = bvh.n - 1;
+}
+async function openClip(k) {
+  cur = k; const c = CLIPS[k];
+  document.querySelectorAll('.it').forEach((e) => e.classList.toggle('sel', e.dataset.id === c.id));
+  const el = document.querySelector('.it.sel'); if (el) el.scrollIntoView({ block: 'nearest' });
+  $('title').innerHTML = '<b>' + c.id + '</b> — ' + c.desc + '<br><small>Subject ' + c.subject + '</small>';
+  try { bvh = parseBVH(await loadBVH(c.id)); } catch (e) { $('title').innerHTML += '<br>Cannot load ' + zipUrl(c.id) + ' (' + e.message + ')'; return; }
+  buildSkeleton(); f = 0; acc = 0; location.hash = c.id;
+}
+function buildList() {
+  const q = $('filter').value.trim().toLowerCase(), box = $('items'); box.innerHTML = ''; let last = '';
+  CLIPS.forEach((c, k) => {
+    if (q && !(c.id + ' ' + c.desc + ' ' + c.subject).toLowerCase().includes(q)) return;
+    if (c.subject !== last) { last = c.subject; const s = document.createElement('div'); s.className = 'suj'; s.textContent = 'Subject ' + c.subject; box.appendChild(s); }
+    const d = document.createElement('div'); d.className = 'it' + (k === cur ? ' sel' : ''); d.dataset.id = c.id; d.dataset.k = k; d.innerHTML = '<b>' + c.id + '</b>' + c.desc.replace(/</g, '&lt;'); box.appendChild(d);
+  });
+}
+$('items').addEventListener('click', (e) => { const d = e.target.closest('.it'); if (d) openClip(+d.dataset.k); });
+$('filter').addEventListener('input', buildList);
+$('bPlay').onclick = () => { playing = !playing; $('bPlay').textContent = playing ? 'Pause' : 'Play'; };
+$('slider').oninput = (e) => { f = +e.target.value; acc = 0; playing = false; $('bPlay').textContent = 'Play'; };
+addEventListener('keydown', (e) => {
+  if (e.target.tagName === 'INPUT' && e.target.type === 'text' || e.target.id === 'filtre') return;
+  if (e.key === ' ') { e.preventDefault(); $('bPlay').click(); }
+  const vis = [...document.querySelectorAll('.it')]; const i = vis.findIndex((x) => +x.dataset.k === cur);
+  if (e.key === 'ArrowDown' && vis[i + 1]) { e.preventDefault(); openClip(+vis[i + 1].dataset.k); }
+  if (e.key === 'ArrowUp' && vis[i - 1]) { e.preventDefault(); openClip(+vis[i - 1].dataset.k); }
+});
+
+let t0 = performance.now();
+function loop(t) {
+  requestAnimationFrame(loop); const dt = (t - t0) / 1000; t0 = t;
+  if (bvh) {
+    if (playing) { acc += dt * +$('speed').value; const k = Math.floor(acc / bvh.dt); if (k > 0) { acc -= k * bvh.dt; f = (f + k) % bvh.n; } }
+    poseJoints(bvh, f, pos); lines.geometry.attributes.position.needsUpdate = true;
+    if ($('follow').checked) { const h = bvh.joints.findIndex((j) => /hips/i.test(j.name)); target.set(pos[3 * h], 0.9, pos[3 * h + 2]); }
+    $('slider').value = f; $('time').textContent = (f * bvh.dt).toFixed(1) + ' / ' + (bvh.n * bvh.dt).toFixed(1) + ' s';
+  }
+  updateCamera(); rend.render(scene, cam);
+}
+(async () => {
+  resizeView(); await loadIndex(); buildList(); requestAnimationFrame(loop);
+  const h = location.hash.slice(1), k = CLIPS.findIndex((c) => c.id === h); openClip(k >= 0 ? k : 0);
+})();
+</script>
+</body>
+</html>

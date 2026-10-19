@@ -11,6 +11,17 @@ As per the usage rights from [cgspeed page](https://sites.google.com/a/cgspeed.c
 
 The animations are genrated using MakeHuman (Character modeling and rigging), [Retarget BVH Blender add-on](https://bitbucket.org/Diffeomorphic/retarget_bvh/src/master/) for retargeting the bvh files and Blender for rendering the animation.
 
+### Viewer
+
+`viewer.html` is a small standalone BVH player (three.js, no build step) that browses and plays every clip of this repository straight from the `.zip` files, with the descriptions from `cmu-mocap-index-text.txt`.
+From the root of the repository run:
+
+```
+python3 -m http.server 8001
+```
+
+then open <http://localhost:8001/viewer.html> (a clip can be linked directly, e.g. `viewer.html#93_02`). Drag to rotate, wheel to zoom, up/down arrows for the next clip, space to pause. Zip archives are inflated in the browser with `DecompressionStream`, so a recent Chrome, Edge, Firefox or Safari is needed.
+
 ### Animation Categories
 [Climb, swing, hang on playground equipment](https://github.com/Shriinivas/cmubvh/tree/main/Sequence-001-009/01)
 
